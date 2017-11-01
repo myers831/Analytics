@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.analytics.MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jump"
+        android:id="@+id/btnJump"
+        android:onClick="onJump"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Attack"
+        android:id="@+id/btnAttack"
+        android:onClick="onAttack"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sky Dive"
+        android:id="@+id/btnSkyDive"
+        android:onClick="onSkyDive"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Power Slide"
+        android:id="@+id/btnPowerSlide"
+        android:onClick="onPowerSlide"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Time"
+        android:id="@+id/btnStartTime"
+        android:onClick="onStartTime"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Track Time"
+        android:id="@+id/btnTrackTime"
+        android:onClick="onTrackTime"/>
+
+</LinearLayout>
